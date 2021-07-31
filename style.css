@@ -29,7 +29,7 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     min-height: 100vh;
-    background: url(images/image.png);
+    background-image: url(images/image.png);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -128,11 +128,6 @@ main {
     .container {
         padding: var(--small-padding);
     }
-
-    /* .navbar {
-        flex-direction: column;
-        gap: 16px;
-    } */
     
     .hero {
         grid-template-columns: auto;
