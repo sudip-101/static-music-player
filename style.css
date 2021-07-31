@@ -137,3 +137,9 @@ main {
         gap: 48px;
     }
 }
+
+@media only screen and (max-width: 548px){
+    .navbar {
+        gap: 16px;
+    }
+}
