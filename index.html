@@ -13,8 +13,8 @@
         <div class="navbar container">
             <span class="logo">MUxic</span>
             <div class="search-bar">
-                <input type="text" name="search" id="search" placeholder="search your favourite song" autocomplete="off">
-                <span class="search-icon"><i class="fas fa-search"></i></span>
+                <input class="search-text" id="search-text" type="text" name="search" id="search" placeholder="search your favourite song" autocomplete="off">
+                <span class="search-btn" id="search-btn"><i class="fas fa-search"></i></span>
             </div>
         </div>
     </header>
@@ -58,6 +58,19 @@
                 icon.src = "images/play.png";
             }
         }
+
+        // var searchText = document.getElementById('search-text');
+        // var searchBtn = document.getElementById('search-btn');
+
+        // searchBtn.onclick = function search() {
+        //     if (searchText.style.width = '0'){
+        //         searchText.style.width = 'max-content';
+        //         searchText.style.paddingLeft = '8px';
+        //     }
+        //     else {
+        //         searchText.style.width = '0';
+        //     }
+        // }
     </script>
 </body>
 </html>
